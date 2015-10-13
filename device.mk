@@ -386,3 +386,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Low latency audio buffer size in frames
 PRODUCT_PROPERTY_OVERRIDES += \
     audio_hal.period_size=192
+
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/moto/shamu/twrp.fstab:recovery/root/etc/twrp.fstab
